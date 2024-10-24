@@ -1,5 +1,3 @@
-![image](https://github.com/user-attachments/assets/7a3b1b22-2fb7-4d61-ab8f-713213506983)# rlnet
-
 Repository created for students' practice projects.
 
 
