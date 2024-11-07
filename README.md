@@ -16,7 +16,7 @@ Repository created for students' practice projects.
 Задание 1.
 - Смоделировать incast [10..500]-to-one сценарий в симуляторе Mininet с произвольным Congestion Control алгоритмом.
 - Собрать из логов входные данные и целевое значение алгоритма (например, размер congestion window).
-- Обучить МЛ регрессионную модель на базе Support Vector Regression для аппроксимации алгоритма.
+- Обучить МЛ регрессионную модель на базе Decision Tree Regression для аппроксимации алгоритма.
 ### 3. Vadim2019-blip
 Задание 1.
 - Смоделировать incast [10..500]-to-one сценарий в симуляторе Mininet с произвольным Congestion Control алгоритмом.
