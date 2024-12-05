@@ -9,7 +9,7 @@ cable_delay = [0.016, 0.002]
 module = 'nic_default'
 count = 1 
 # Number of NICs
-bandwidth = 10_000_000
+bandwidth = 1_000_000
 # Output bandwidth in bytes per second
 processing_time = [0.016, 0.002]
 # Processing time in microseconds per 1000*byte; given as [mu, sigma] normal distribution
@@ -19,7 +19,7 @@ processing_time = [0.016, 0.002]
 module = 'host_swift'
 count = 100
 # Number of hosts
-bandwidth = 10_000_000
+bandwidth = 1_000_000
 # Output bandwidth in bytes per second
 processing_time = [0.016, 0.002]
 # Processing time in microseconds per 1000*byte; given as [mu, sigma] normal distribution
@@ -27,3 +27,5 @@ lifetime = [0, 0]
 # Interval of activity [start, end]. If 'start' == 'end', it lasts till the end of experiment
 packet_size = 1_000
 # Packet size in bytes
+initial_cwnd = 10
+# Initial Congestion Window size
